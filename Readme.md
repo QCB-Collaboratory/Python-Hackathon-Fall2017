@@ -30,7 +30,7 @@ th mosqu eiro @ ucla . edu
 
 We will post here the list of problems soon. Stay tunned!
 
-* [Parsing large number of files with Python]() - Suppose you have a set of files with various names organized by folders and keywords encoded in the filenames. How can we set a script that parse these files and prepare them to perform analysis X?
+* [Parsing large number of files with Python](https://github.com/thmosqueiro/UCLA-Collaboratory_Hackathon/tree/master/Materials%20%26%20Resources/Problem%201) - Suppose you have a set of files with various names organized by folders and keywords encoded in the filenames. How can we set a script that parse these files and prepare them to perform analysis X?
 
 ## Who is this Hackathon intended for?
 
