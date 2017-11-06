@@ -14,7 +14,7 @@ This Hackathon will be hosted by the [QCBio Collaboratory](https://qcb.ucla.edu/
 ## When? Where?
 
 * Date: December 8th, 2017
-* Where: Collaboratory Classroom (Boyer Hall 529), 
+* Where: Collaboratory Classroom (Boyer Hall 529),
 Institute for Quantitative and Computational Biology, UCLA
 
 ## Registration and contact
@@ -30,11 +30,11 @@ th mosqu eiro @ ucla . edu
 
 We will post here the list of problems soon. Stay tunned!
 
+* [Parsing large number of files with Python]() - Suppose you have a set of files with various names organized by folders and keywords encoded in the filenames. How can we set a script that parse these files and prepare them to perform analysis X?
+
 ## Who is this Hackathon intended for?
 
 The hackathon is suitable for anyone who regularly uses or wishes to regularly use Python for their research, regardless of their level of expertise with programming. The only requirement is the Introduction to Python workshop.
 
 
 ## Frequently asked questions
-
-
