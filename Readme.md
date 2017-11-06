@@ -28,11 +28,13 @@ th mosqu eiro @ ucla . edu
 
 ## Coding problems
 
-Here is the list of problems
+We will post here the list of problems soon. Stay tunned!
 
 ## Who is this Hackathon intended for?
 
 The hackathon is suitable for anyone who regularly uses or wishes to regularly use Python for their research, regardless of their level of expertise with programming. The only requirement is the Introduction to Python workshop.
 
 
-## FAQ
+## Frequently asked questions
+
+
