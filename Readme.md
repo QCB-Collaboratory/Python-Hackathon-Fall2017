@@ -9,6 +9,11 @@ Our idea is to organize a Hackathon over a single day, and spend this day solvin
 
 The suggestions can be anything, and you don't need to submit a solution, just a small description of the problem. Examples of types of problems: changing file format from one standard to another; automating a task or pipeline for many datasets; optimize the computation time of complex analyses and pipelines; applying basic methods of computer vision to segment images (e.g. for cell detection); building predictive models (e.g. using Machine Learning techniques); solving a model of ODEs to fit your data; etc.
 
+## When? Where?
+
+* Date: December 8th, 2017
+* Where: Collaboratory Classroom (Boyer Hall 529)
+
 ## Registration and contact
 
 To register, follow this link: [http://]()
@@ -18,8 +23,11 @@ th mosqu eiro @ ucla . edu
 
 ## Coding problems
 
+Here is the list of problems
 
 ## Who is this Hackathon intended for?
+
+The hackathon is suitable for anyone who regularly uses or wishes to regularly use Python for their research, regardless of their level of expertise with programming. The only requirement is the Introduction to Python workshop.
 
 
 ## FAQ
