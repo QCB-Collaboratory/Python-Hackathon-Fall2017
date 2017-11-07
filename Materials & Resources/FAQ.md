@@ -11,7 +11,7 @@ The main difference between the Python Hackathon and the other workshops offered
 
 When creating workshops with more advanced contents, selecting topics that are of broad interest become harder. This is the reason why we chose a Hackathon format, where the focus is on the participants solving the problems and actively learning to use Python to meet their needs. This way, we will be able to offer tailored comments and tips to each participant throughout the development of their solution.
 
-Of course, this format only works if the [participants have a minimal background with Python](#as-a-beginner-in-python,-how-do-I-know-if-I-can-join-the-hackathon?).
+Of course, this format only works if the [participants have a minimal background with Python](./FAQ.md#as-a-beginner-in-python-how-do-i-know-if-i-can-join-the-hackathon).
 
 
 ## What will be the structure of the hackathon?
