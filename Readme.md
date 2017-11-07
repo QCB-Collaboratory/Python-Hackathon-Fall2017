@@ -19,12 +19,15 @@ Our idea is to organize a Hackathon over a single day, and spend this day solvin
 
 This Hackathon will be hosted by the [QCBio Collaboratory](https://qcb.ucla.edu/collaboratory/).
 
+For more information or to contact us, please send us an e-mail: thmosqueiro@ucla.edu
+
 
 ## When? Where?
 
-* Date: December 8th, 2017
-* Where: Collaboratory Classroom (Boyer Hall 529),
+* **Date:** December 8th, 2017
+* **Where:** Collaboratory Classroom (Boyer Hall 529),
 Institute for Quantitative and Computational Biology, UCLA
+* **What time:** between 9:30AM and 5:00PM
 * Lunch will be served between 12:30 and 2PM
 
 ## Registration and contact
@@ -33,7 +36,6 @@ To register, follow this link: [https://goo.gl/forms/k4LMeEB9SzwEBVX42](https://
 
 To ensure that the problems used in the Hackathon are of relevance to a large number of people, during the registration we ask for suggestions of problems that you, or colleagues, may want help tackling. These suggestions can be anything, and you don't need to submit a solution, just a small description of the problem. Examples of types of problems: changing file format from one standard to another; automating a task or pipeline for many datasets; optimize the computation time of complex analyses and pipelines; applying basic methods of computer vision to segment images (e.g. for cell detection); building predictive models (e.g. using Machine Learning techniques); solving a model of ODEs to fit your data; etc.
 
-For more information or to contact us, please send us an e-mail: thmosqueiro@ucla.edu
 
 ## Coding problems
 
@@ -45,4 +47,10 @@ We will post here the list of problems soon. Stay tuned!
 The hackathon is suitable for anyone who regularly uses or wishes to regularly use Python for their research, regardless of their level of expertise with programming. The only requirement is the Introduction to Python workshop.
 
 
-## Frequently asked questions
+## Organization
+
+This event is organized by the following [QCBio Collaboratory](https://qcb.ucla.edu/collaboratory/) fellows:
+
+* Thiago Mosqueiro
+* Renaud Dessalles
+* Simon Mitchell
