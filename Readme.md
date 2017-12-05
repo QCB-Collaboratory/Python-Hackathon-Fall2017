@@ -65,8 +65,8 @@ The hackathon is suitable for anyone who regularly uses or wishes to regularly u
 
 ## Organization
 
-This event is organized by the following [QCBio Collaboratory](https://qcb.ucla.edu/collaboratory/) fellows:
+This event is sponsored by the [QCBio Collaboratory](https://qcb.ucla.edu/collaboratory/), and was organized by the following fellows:
 
-* Thiago Mosqueiro
-* Renaud Dessalles
+* [Thiago Mosqueiro](http://thmosqueiro.vandroiy.com/)
+* [Renaud Dessalles](https://www.researchgate.net/profile/Renaud_Dessalles)
 * Simon Mitchell
