@@ -2,7 +2,7 @@
 
 Introductory paragraph
 
-### Goal of this project
+### Primary goal
 
 By the end of the Hackathon, we will have a small script that simulates the Hok-Mok system as a function of measured degradation rates.
 

@@ -6,7 +6,7 @@ Differently to the other projects proposed in this Hackathon, this one
 
 The dataset used in this problem was kindly provided by [Dr. Julia Mack](https://www.linkedin.com/in/julia-mack-0790a52/) from the [Arispe Lab](https://arispelab.mcdb.ucla.edu/), and was used in [their recent publication on Nature Communications](https://www.nature.com/articles/s41467-017-01741-8).
 
-### Goal
+### Primary goal
 
 From the discussions in the Hackathon, we will publish a notebook which will provide an example of how to extract and analyse calcium dynamics form a video. This notebook will be available publicly to everyone, and other people from the QCBio community will be able to use it as an additional resource for this kind of analysis.
 

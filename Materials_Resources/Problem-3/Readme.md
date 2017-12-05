@@ -5,6 +5,9 @@ One common solution to process a batch of data (e.g. images, sequencing reads, e
 The dataset used in this problem was kindly provided by [Rob Foreman](https://github.com/rfor10) from the [Wollman Lab](http://wollman.chem.ucla.edu/).
 
 
+### Primary goal
+
+
 ### Technical challenges
 
 * Basics of parallel processing in Python
@@ -21,3 +24,7 @@ The dataset used in this problem was kindly provided by [Rob Foreman](https://gi
 2. Load the sample image. How long did it take? Keep in mind we would eventually need to analyze hundreds of these images.
 
 3.
+
+
+
+### Resources
