@@ -39,7 +39,17 @@ To ensure that the problems used in the Hackathon are of relevance to a large nu
 
 ## Coding problems
 
-We will post here the list of problems soon. Stay tuned!
+During the Hackathon, we will be solving together the following problems. You should feel free to participate in as many problems you want. **The list of problems may be updated until the date of the event.**
+
+1. [**Extracting calcium imaging.**](./Materials_Resurces/Problem-1/) We will use videos of fluorescent calcium indicator Oregon Green in endothelial cells to practice how to extract fluorescence time series of a set of cells and estimate their calcium concentration.
+
+2. [**Simulating protein expression with the Gillespie method.**](./Materials_Resurces/Problem-2/) ...
+
+3. [**Automating a pipeline for image processing.**](./Materials_Resurces/Problem-4/) Using a single-molecule Fluorescence-in-Situ-Hybridization dataset, we will explore how to automate a simple pipeline for image processing in Python using parallel techniques.
+
+4. [**Web crawler to find signal peptides.**](./Materials_Resurces/Problem-3/) Let's construct a web crawler that automatically submits to the [SignalP 4.1 Server](http://www.cbs.dtu.dk/services/SignalP/), which predicts the presence and location of signal peptide cleavage sites in aminoacid sequences.
+
+5. [**Recording fluorescence using camera and arduino.**](./Materials_Resurces/Problem-5/) Let's design and set up a small system to simultaneously control an LED array and a camera to record a fluorescence tracer such as fluorescein.
 
 
 ## Who is this Hackathon intended for?
