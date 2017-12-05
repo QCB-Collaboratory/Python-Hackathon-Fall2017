@@ -27,7 +27,7 @@ For more information or to contact us, please send us an e-mail: thmosqueiro@ucl
 * **Date:** December 8th, 2017
 * **Where:** Collaboratory Classroom (Boyer Hall 529),
 Institute for Quantitative and Computational Biology, UCLA
-* **What time:** between 9:30AM and 5:00PM
+* **What time:** between 9:00AM and 5:00PM
 * Lunch will be served between 12:30 and 2PM
 
 ## Registration and contact
