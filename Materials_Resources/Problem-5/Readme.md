@@ -2,6 +2,8 @@
 
 In many applications, organic compounds are used as fluorescence tracer. LEDs are often use to excite these compounds, which then emit radiation in a different wavelength. [Fluorescein](https://en.wikipedia.org/wiki/Fluorescein), for instance, is used in a broad range of applications, from cell miscroscopy to forensics. The idea of this project is to use Python to syncrhonize LEDs and camera.
 
+<img src="https://raw.githubusercontent.com/thmosqueiro/UCLA-Collaboratory_Hackathon/master/Materials_Resources/Problem-5/resources/scheme_arduino_pc.png" with=70% />
+
 ### Primary goal
 
 By the end of this project, we should have an acquisition system that synchronizes an array of LEDs with a camera. You should be able to control the sampling rate and the exposition of the LEDs (which controls for photobleach).
