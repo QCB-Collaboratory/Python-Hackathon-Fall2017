@@ -5,6 +5,8 @@
 Many of you who enjoyed the Collaboratory workshops have requested the opportunity to continue improving your computational skills beyond the workshop. We're pleased to announce a new event for those with interest in computational and quantitative methods in biology: **a Hackathon dedicated to solving problems of interest to our community**, using Python.
 
 
+#### Table of contents
+
 - [Where? When?](#when-where)
 - [Registration and contact](#registration-and-contact)
 - [Schedule](#schedule)
@@ -22,7 +24,7 @@ This Hackathon will be hosted by the [QCBio Collaboratory](https://qcb.ucla.edu/
 
 For more information or to contact us, please send us an e-mail: thmosqueiro@ucla.edu
 
-<img src="./Materials_Resources/Hackathon-Flyer.png" width="700px" />
+<img src="./Materials_Resources/Hackathon-Flyer.png" width="600px" />
 
 
 ## When? Where?
