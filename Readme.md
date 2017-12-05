@@ -22,6 +22,8 @@ This Hackathon will be hosted by the [QCBio Collaboratory](https://qcb.ucla.edu/
 
 For more information or to contact us, please send us an e-mail: thmosqueiro@ucla.edu
 
+<img src="./Materials_Resources/Hackathon-Flyer.png" width="700px" />
+
 
 ## When? Where?
 
