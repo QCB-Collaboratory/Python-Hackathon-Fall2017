@@ -5,11 +5,11 @@
 Many of you who enjoyed the Collaboratory workshops have requested the opportunity to continue improving your computational skills beyond the workshop. We're pleased to announce a new event for those with interest in computational and quantitative methods in biology: **a Hackathon dedicated to solving problems of interest to our community**, using Python.
 
 
-- [Where? When?](./#when-where)
-- [Registration and contact](./#registration-and-contact)
-- [Schedule](./#schedule)
-- [Coding problems](./#coding-problems)
-- [Who is this Hackathon intended for?](./#who-is-this-hackathon-intended-for)
+- [Where? When?](#when-where)
+- [Registration and contact](#registration-and-contact)
+- [Schedule](#schedule)
+- [Coding problems](#coding-problems)
+- [Who is this Hackathon intended for?](#who-is-this-hackathon-intended-for)
 - [Frequently asked questions](./Materials_Resources/FAQ.md)
 
 
