@@ -1,12 +1,12 @@
 # Web crawler to connect with SignalP server
 
-Predicting the presence and the location of cleavage sites of signal peptides is a complex problem. SignalP 4.1 Server uses a neural network to solve that problem for Gram-positive prokaryotes, Gram-negative prokaryotes, and eukaryotes. To use it, you can use a web interface by the Center for Biological Sequence Analysis at the Technical University of Denmark (DTU):
+Predicting the presence and the location of cleavage sites of signal peptides is a complex and interesting problem. For instance, the presence of a signal peptide in a given protein of interest indicates that it is destined towards the secretory pathway. Also, in genome sequencing and proteomics studies, one can estimate the diversity of secreted proteins by targeting the structure of the signal peptide. SignalP 4.1 Server uses a neural network to find cleavage sites of signal peptides for Gram-positive prokaryotes, Gram-negative prokaryotes, and eukaryotes. To use it, you can use a web interface by the Center for Biological Sequence Analysis at the Technical University of Denmark (DTU):
 
 http://www.cbs.dtu.dk/services/SignalP/
 
-In this project, we will develop a script to automate the detection of signal peptides and organize the output from SignalP in a fasta file.
+In this project, we will develop a script to automate the detection of signal peptides and organize the output from SignalP in a fasta file. ServerP 4.1 Server was originally proposed on [a Nature Methods paper](https://www.nature.com/articles/nmeth.1701) by TN Petersen, S Brunak, G von Heijne and H Nielsen.
 
-ServerP 4.1 Server was originally proposed on [a Nature Methods paper](https://www.nature.com/articles/nmeth.1701) by TN Petersen, S Brunak, G von Heijne and H Nielsen.
+This problem was originally proposed by [João VD Molino](https://www.researchgate.net/profile/Joao_Molino) in 2014. He also helped us getting the data for this exercise!
 
 ### Primary goal
 
@@ -36,6 +36,12 @@ During the Hackathon, we will develop a Python script or module that automates t
 
 
 ### Dataset
+
+To test our script, let's use Chlamydomonas reinhardtii's proteome, availablne on the Genome Portal hosted by the Joint Genome Institute:
+
+https://genome.jgi.doe.gov/chlamy/chlamy.download.ftp.html
+
+If you don't have an account, create one (it takes 2 minutes).
 
 ### Resources
 
