@@ -44,27 +44,37 @@ To ensure that the problems used in the Hackathon are of relevance to a large nu
 
 ## Schedule
 
-To be announced soon!!
+Here is a tentative schedule:
+
+Time | Event
+-----|------
+9:00 - 9:30    | Initial set ups and chat
+9:30 - 10:00   | Quick presentation about the Hackahton and overview of the problems
+10:00 - 12:300 | First coding session
+12:30 - 2:00pm | Lunch
+2:00 - 4:00    | Second coding session
+4:00 - 4:30    | Final remarks and **discussions for the future**
+4:30 - 5:00    | Summary of what was done in each project
 
 
 ## Coding problems
 
 During the Hackathon, we will be solving together the following problems. You should feel free to participate in as many problems you want. **The list of problems may be updated until the date of the event.**
 
-1. [**Extracting calcium imaging.**](./Materials_Resources/Problem-1/) We will use videos of fluorescent calcium indicator Oregon Green in endothelial cells to practice how to extract fluorescence time series of a set of cells and estimate their calcium concentration.
+1. [**Extracting calcium imaging.**](./Materials_Resources/Problem-1/Readme.md) We will use videos of fluorescent calcium indicator Oregon Green in endothelial cells to practice how to extract fluorescence time series of a set of cells and estimate their calcium concentration.
 
-2. [**Simulating protein expression with the Gillespie method.**](./Materials_Resources/Problem-2/) ...
+2. [**Simulating protein expression with the Gillespie method.**](./Materials_Resources/Problem-2/Readme.md) ...
 
-3. [**Automating a pipeline for image processing.**](./Materials_Resources/Problem-3/) Using a single-molecule Fluorescence-in-Situ-Hybridization dataset, we will explore how to automate a simple pipeline for image processing in Python using parallel techniques.
+3. [**Automating a pipeline for image processing.**](./Materials_Resources/Problem-3/Readme.md) Using a single-molecule Fluorescence-in-Situ-Hybridization dataset, we will explore how to automate a simple pipeline for image processing in Python using parallel techniques.
 
-4. [**Web crawler to find signal peptides.**](./Materials_Resources/Problem-4/) Let's construct a web crawler that automatically submits to the [SignalP 4.1 Server](http://www.cbs.dtu.dk/services/SignalP/), which predicts the presence and location of signal peptide cleavage sites in aminoacid sequences.
+4. [**Web crawler to find signal peptides.**](./Materials_Resources/Problem-4/Readme.md) Let's construct a web crawler that automatically submits to the [SignalP 4.1 Server](http://www.cbs.dtu.dk/services/SignalP/), which predicts the presence and location of signal peptide cleavage sites in aminoacid sequences.
 
-5. [**Recording fluorescence using camera and arduino.**](./Materials_Resources/Problem-5/) Let's design and set up a small system to simultaneously control an LED array and a camera to record a fluorescence tracer such as fluorescein.
+5. [**Recording fluorescence using camera and arduino.**](./Materials_Resources/Problem-5/Readme.md) Let's design and set up a small system to simultaneously control an LED array and a camera to record a fluorescence tracer such as fluorescein.
 
 
 ## Who is this Hackathon intended for?
 
-The hackathon is suitable for anyone who regularly uses or wishes to regularly use Python for their research, regardless of their level of expertise with programming. The only requirement is the Introduction to Python workshop.
+The hackathon is suitable for anyone who regularly uses or wishes to regularly use Python for their research, regardless of their level of expertise with programming. The only requirement is the Introduction to Python workshop. Read more about this in our [Frequently asked questions](./Materials_Resources/FAQ.md).
 
 
 ## Organization
