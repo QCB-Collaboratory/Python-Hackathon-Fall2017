@@ -1,9 +1,7 @@
 # Python Hackathon
 **QCBio Collaboratory**
 
-
 Many of you who enjoyed the Collaboratory workshops have requested the opportunity to continue improving your computational skills beyond the workshop. We're pleased to announce a new event for those with interest in computational and quantitative methods in biology: **a Hackathon dedicated to solving problems of interest to our community**, using Python.
-
 
 #### Table of contents
 
@@ -15,7 +13,9 @@ Many of you who enjoyed the Collaboratory workshops have requested the opportuni
 - [Frequently asked questions](./Materials_Resources/FAQ.md)
 
 
-Our idea is to organize a Hackathon over a single day, and spend this day solving a couple of coding problems. To ensure that these problems are of relevance to a large number of people, we are asking for everyone interested to submit suggestions of problems that you, or colleagues, may want help tackling. This is a great opportunity to get help with a problem you're stuck on as we learn together how to overcome coding challenges. With a set of relevant problems, we can offer tailored assistance in advanced topics with Python, creating a stronger connection between the contents of our workshop and your research and going beyond the basic material provided by the current Collaboratory workshop. The hackathon is suitable for anyone who regularly uses or wishes to regularly use Python for their research, regardless of their level of expertise with programming. The only requirement is the Introduction to Python workshop.
+Our idea is to organize a Hackathon over a single day (December 8th, 2017), and spend this day solving a set of coding problems. These coding problems will consist of common issues faced by many of us in our research. **Collaboratory fellows will be present throughout the whole day to provide personal and tailored assistance.** We will encourage every participant to go in their own pace and speed. Collaborative work in groups is also encouraged.
+
+To ensure that these problems are of relevance to a large number of people, we are asking for everyone interested to submit suggestions of problems that you, or colleagues, may want help tackling. This is a great opportunity to get help with a problem you're stuck on as we learn together how to overcome coding challenges. With a set of relevant problems, we can offer tailored assistance in advanced topics with Python, creating a stronger connection between the contents of our workshop and your research and going beyond the basic material provided by the current Collaboratory workshop. **The hackathon is suitable for anyone who regularly uses or wishes to regularly use Python for their research, regardless of their level of expertise with programming languages.** The only requirement is the [Introduction to Python workshop](https://qcb.ucla.edu/collaboratory/workshops/collaboratory-workshop-9/).
 
 
 [Official home page of the Hackathon.](https://qcb.ucla.edu/collaboratory/hackathon)
@@ -61,7 +61,7 @@ Time | Event
 
 During the Hackathon, we will be solving together the following problems. You should feel free to participate in as many problems you want. **The list of problems may be updated until the date of the event.**
 
-1. [**Extracting calcium imaging.**](./Materials_Resources/Problem-1/Readme.md) We will use videos of fluorescent calcium indicator Oregon Green in endothelial cells to practice how to extract fluorescence time series of a set of cells and estimate their calcium concentration.
+1. [**Analysis of calcium imaging.**](./Materials_Resources/Problem-1/Readme.md) We will use videos of fluorescent calcium indicator Oregon Green in endothelial cells to practice how to extract fluorescence time series of a set of cells and estimate their calcium concentration.
 
 2. [**Simulating protein expression with the Gillespie method.**](./Materials_Resources/Problem-2/Readme.md) ...
 

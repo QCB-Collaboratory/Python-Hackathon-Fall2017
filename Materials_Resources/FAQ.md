@@ -16,7 +16,9 @@ Of course, this format only works if the [participants have a minimal background
 
 ## What will be the structure of the hackathon?
 
-Our idea is to organize a Hackathon over a single day (December 8th, 2017), and spend this day solving a couple of coding problems. These coding problems will consist of common issues faced by many of us in our research. The primary goal will be to work together to find a solution (or a set of possible solutions) that are elegant and efficient. Collaborative work in groups is encouraged. Collaboratory fellows will be present throughout the whole day to provide personal and tailored assistance to every participant. As in every hackathon event, at the end of the Hackathon, we will merge the best ideas and solutions and publish in this GitHub repository.
+Our idea is to organize a Hackathon over a single day (December 8th, 2017), and spend this day solving a set of coding problems. These coding problems will consist of common issues faced by many of us in our research. [Click here](https://github.com/thmosqueiro/UCLA-Collaboratory_Hackathon#coding-problems) for the list of problems. The primary goal will be to work together to find one or more solutions that are elegant and efficient. **Collaboratory fellows will be present throughout the whole day to provide personal and tailored assistance.** We encourage every participant to go in their own pace and speed. Collaborative work in groups is also encouraged.
+
+As in every hackathon event, at the end of the Hackathon, we will merge the best ideas and publish the solutions in this GitHub repository.
 
 Lunch and coffee will be served to fuel our discussions.
 
