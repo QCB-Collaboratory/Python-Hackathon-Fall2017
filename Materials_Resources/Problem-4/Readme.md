@@ -1,4 +1,4 @@
-# Web crawler to connect with SignalP server
+# Automated submission of analyses to online servers
 
 Predicting the presence and the location of cleavage sites of signal peptides is a complex and interesting problem. For instance, the presence of a signal peptide in a given protein of interest indicates that it is destined towards the secretory pathway. Also, in genome sequencing and proteomics studies, one can estimate the diversity of secreted proteins by targeting the structure of the signal peptide. SignalP 4.1 Server uses a neural network to find cleavage sites of signal peptides for Gram-positive prokaryotes, Gram-negative prokaryotes, and eukaryotes. To use it, you can use a web interface by the Center for Biological Sequence Analysis at the Technical University of Denmark (DTU):
 

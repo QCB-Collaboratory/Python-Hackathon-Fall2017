@@ -67,7 +67,7 @@ During the Hackathon, we will be solving together the following problems. You sh
 
 3. [**Automating a pipeline for image processing.**](./Materials_Resources/Problem-3/Readme.md) Using a single-molecule Fluorescence-in-Situ-Hybridization dataset, we will explore how to automate a simple pipeline for image processing in Python using parallel techniques.
 
-4. [**Web crawler to find signal peptides.**](./Materials_Resources/Problem-4/Readme.md) Let's construct a web crawler that automatically submits to the [SignalP 4.1 Server](http://www.cbs.dtu.dk/services/SignalP/), which predicts the presence and location of signal peptide cleavage sites in aminoacid sequences.
+4. [**Automated submission of analyses to online servers.**](./Materials_Resources/Problem-4/Readme.md) Let's construct a Python script that automatically submits fasta files to the [SignalP 4.1 Server](http://www.cbs.dtu.dk/services/SignalP/), which predicts the presence and location of signal peptide cleavage sites in aminoacid sequences. Scripts that are able to navigate through web pages are called "web crawlers" and are very useful for many applications!
 
 5. [**Recording fluorescence using camera and arduino.**](./Materials_Resources/Problem-5/Readme.md) Let's design and set up a small system to simultaneously control an LED array and a camera to record a fluorescence tracer such as fluorescein.
 

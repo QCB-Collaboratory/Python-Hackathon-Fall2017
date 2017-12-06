@@ -1,8 +1,15 @@
 # Analysis of calcium imaging
 
-In this problem, we will practice a number of common
+In this problem, we will practice a number of common methodologies for the analysis of images and calcium traces based on videos. Differently to the other projects proposed in this Hackathon, this project is more educational and aims at giving hands-on practice with Python and Jupyter Notebooks. Using videos of fluorescent calcium-indicator Oregon Green in endothelial cells, we will practice:
 
-Differently to the other projects proposed in this Hackathon, this one
+1. a simple method to segment cells;
+2. extract fluorescence time series of a set of cells;
+3. and estimate their calcium concentration and other population statistics.
+
+As extra activities, participants may also use this dataset to learn how to automate pipelines for image processing and create videos such as [this one](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-017-01741-8/MediaObjects/41467_2017_1741_MOESM4_ESM.mp4) using a few lines of code in Python.
+
+
+<img src="http://thmosqueiro.vandroiy.com/files/projects/notch1_vid_natcomm.gif" width="600" />
 
 The dataset used in this problem was kindly provided by [Dr. Julia Mack](https://www.linkedin.com/in/julia-mack-0790a52/) from the [Arispe Lab](https://arispelab.mcdb.ucla.edu/), and was used in [their recent publication on Nature Communications](https://www.nature.com/articles/s41467-017-01741-8).
 
