@@ -40,7 +40,7 @@ Institute for Quantitative and Computational Biology, UCLA
 
 ## Registration and contact
 
-To register, follow this link: [https://goo.gl/forms/k4LMeEB9SzwEBVX42](https://goo.gl/forms/k4LMeEB9SzwEBVX42)
+To register, follow this link: [https://goo.gl/forms/oAVIl67OUEBMkHaR2](https://goo.gl/forms/oAVIl67OUEBMkHaR2)
 
 To ensure that the problems used in the Hackathon are of relevance to a large number of people, during the registration we ask for suggestions of problems that you, or colleagues, may want help tackling. These suggestions can be anything, and you don't need to submit a solution, just a small description of the problem. Examples of types of problems: changing file format from one standard to another; automating a task or pipeline for many datasets; optimize the computation time of complex analyses and pipelines; applying basic methods of computer vision to segment images (e.g. for cell detection); building predictive models (e.g. using Machine Learning techniques); solving a model of ODEs to fit your data; etc.
 
