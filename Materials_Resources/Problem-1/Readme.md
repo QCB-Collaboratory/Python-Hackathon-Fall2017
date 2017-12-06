@@ -9,7 +9,7 @@ In this problem, we will practice a number of common methodologies for the analy
 As extra activities, participants may also use this dataset to learn how to automate pipelines for image processing and create videos such as [this one](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-017-01741-8/MediaObjects/41467_2017_1741_MOESM4_ESM.mp4) using a few lines of code in Python.
 
 
-<img src="http://thmosqueiro.vandroiy.com/files/projects/notch1_vid_natcomm.gif" width="600" />
+<img src="resources/notch1_vid_natcomm.gif" width="600" />
 
 The dataset used in this problem was kindly provided by [Dr. Julia Mack](https://www.linkedin.com/in/julia-mack-0790a52/) from the [Arispe Lab](https://arispelab.mcdb.ucla.edu/), and was used in [their recent publication on Nature Communications](https://www.nature.com/articles/s41467-017-01741-8).
 
