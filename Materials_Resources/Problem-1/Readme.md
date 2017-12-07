@@ -39,13 +39,16 @@ From the discussions in the Hackathon, we will publish a notebook which will pro
 
 #### Guideline
 
-1. The data is provided here. It consists of four files. Choose one of the files and import it into your Python environment using NumPy. Use this file to figure out how to identify and index the cells, then apply your solution to the other files.
+0. The data is provided here. It consists of h5files that contain four samples. Start by downloading the file ```Notch1KD_JMackNatComm2017_samples.hdf5```.
+
+1. Import the h5 file into your Python environment (*hint:* h5py). You should have access to 4 samples, called ```sample1```, ```sample2```, ```sample3``` and ```sample4```. Each sample is a 1024x1024 video of 600 seconds. Choose one of them and use this sample to figure out how to identify and index the cells, then apply your solution to the other files.
 
 2. Plot a few frames of your video. Using shape
-
     * *Optional:* Often the file you have access to is not in a video format. Create a video of it using this script.
-
     * *Optional:* Add comment lines to the script, explaining what each line does.
+This is how they should look like:
+<div style="text-align:center"><img src="resources/Notch1KD_JMackNatComm2017_samples.png" width="150" align="center"></div>
+
 
 3. Find the average fluorescence of the whole video as a function of time. Plot it and interpret what is happening.
 
