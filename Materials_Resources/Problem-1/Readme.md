@@ -2,7 +2,7 @@
 
 <img src="../qcbCollaboratory_logo.png" height="50"/>
 
-In this problem, we will practice a number of common methodologies for the analysis of calcium traces. Differently to the other projects proposed in this Hackathon, this project is more educational and aims at giving hands-on practice with Python and Jupyter Notebooks. Using videos of fluorescent calcium-indicator Oregon Green in endothelial cells, we will practice:
+In this problem, we will practice a number of common methodologies for the analysis of calcium traces. Differently to the other projects proposed in this Hackathon, this project is more educational and aims at giving hands-on practice with Python and Jupyter Notebooks. Using videos of fluorescent calcium-indicator Oregon Green (OGB-1) in endothelial cells, we will practice:
 
 1. a simple method to segment cells;
 2. extract fluorescence time series of a set of cells;
@@ -42,8 +42,8 @@ The data is provided [here](./Dataset.md). It consists of two h5files that conta
 
 <br />
 
-## Problem 1 - Segmenting and separating cells
 
+## Track 1 - Segmenting and separating cells
 
 #### Guideline
 
@@ -66,7 +66,7 @@ The data is provided [here](./Dataset.md). It consists of two h5files that conta
 
     * Post-process your results.
 
-5. You should now have set of subregions of your image where you can find each cell. Write a small code that, given the ID of a cell, it plots the average fluorescence in the corresponding region as a function of time.
+5. You should now have set of subregions of your image where you can find each cell. This is called a **mask**. Write a small code that, given the ID of a cell, it plots the average fluorescence in the corresponding region as a function of time.
 
 6. Export your results using NumPy's ```savetxt()``` function. We recommend that you use an array of shape ```(Ncells,600)```, where Ncells represents the number of cells found by your code.
 
@@ -84,22 +84,46 @@ The data is provided [here](./Dataset.md). It consists of two h5files that conta
 
 
 
-## Problem 2 - Removing photobleaching and estimating calcium concentration
+## Track 2 - Removing photobleaching and estimating calcium concentration
 
 #### Guideline
 
-1.
+1. In point 3 of Track 1 we visualized the average fluorescence as a function of time. The drop in the basal line is called [photo bleaching](https://en.wikipedia.org/wiki/Photobleaching). Find a way to fix it and plot the new average fluorescence.
+
+2. Use the mask obtained in point 5 from Track 1 to examine the fluorescence of each cell. Is there still residual photobleaching? If yes, correct it per cell.
+
+3. Let's start by downloading the file ```Notch1KD_JMackNatComm2017_fmaxfmin.hdf5```. Import the h5 file into your Python environment. This gives you the measures of Fmax and Fmin for each sample.
+
+4. Estimate the Fmax and Fmin per sample (**or** per cell). Note that Fmax and Fmin are taken after the whole experiment, and should be corrected for photobleaching too.
+
+5. To convert from fluorescence to calcium concentration, use the formula below:
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B300%7D%20%5Cfn_phv%20%5BCa%5E%7B2&plus;%7D%5D%20%3D%20K_d%20%5C%2C%20%5Cdfrac%7BF%20-%20F_%7Bmin%7D%7D%7BF_%7Bmax%7D%20-%20F%7D" height="40" />
+
+  Kd=170nM is the [dissociation constant](https://en.wikipedia.org/wiki/Dissociation_constant) of OGB-1.
+
+6. Plot the distribution of average calcium distribution for each slide.
 
 
-## Extra Problem 1 - Automate the pipeline
+#### Resources
 
-#### Guideline
+* [Chemical calcium indicators], Methods 2008 by Paredes, Etzler, Watts, Zheng & Lechleiter
 
-1.
+* [More about the formula used in the quantification of calcium](https://www.embl.de/eamnet/html/calcium/quantifying1.htm), by EAMNET.
+
+* [How to calculate moving average](https://stackoverflow.com/questions/14313510/how-to-calculate-moving-average-using-numpy) using numpy.
 
 
-## Extra Problem 2 - create a video!
 
-#### Guideline
+## Extra 1 - Automate the pipeline
 
-1. Learn how to use Matplotlib's animate function.
+#### Challenge
+
+Create a single Python module that applied the pipeline on a set of these images. Given enough memory, many of these computations can be performed in parallel.
+
+
+## Extra 2 - create a video!
+
+#### Challenge
+
+Matplotlib has an [animation module](https://matplotlib.org/api/animation_api.html). Creates a video as
+[this one](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-017-01741-8/MediaObjects/41467_2017_1741_MOESM4_ESM.mp4) based on your work.
