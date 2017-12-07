@@ -49,14 +49,14 @@ To ensure that the problems used in the Hackathon are of relevance to a large nu
 
 Here is a tentative schedule:
 
-Time | Event
------|------
+Time           | Event
+---------------|------
 9:00 - 9:30    | Initial set ups and chat
 9:30 - 10:00   | Quick presentation about the Hackahton and overview of the problems
-10:00 - 12:300 | First coding session
+10:00 - 12:30  | First coding session
 12:30 - 2:00pm | Lunch while coding
 2:00 - 4:00    | Second coding session
-4:00 - 4:30    | Final remarks and **discussions for the future**
+4:00 - 4:30    | Final remarks and **discussions about the future**
 4:30 - 5:00    | Summary of what was done in each project
 
 
@@ -66,7 +66,7 @@ During the Hackathon, we will be solving together the following problems. You sh
 
 1. [**Analysis of calcium imaging.**](./Materials_Resources/Problem-1/Readme.md) We will use videos of fluorescent calcium indicator Oregon Green in endothelial cells to practice how to extract fluorescence time series of a set of cells and estimate their calcium concentration.
 
-2. [**Simulating protein expression with the Gillespie method.**](./Materials_Resources/Problem-2/Readme.md) ...
+2. [**Simulating protein expression with the Gillespie method.**](./Materials_Resources/Problem-2/Readme.md) To explore this method, we will create a model that predicts expression levels of the Hok-Sok system, a postsegregational killing mechanism often used as kill switch in synthetic biology.
 
 3. [**Automating a pipeline for image processing.**](./Materials_Resources/Problem-3/Readme.md) Using a single-molecule Fluorescence-in-Situ-Hybridization dataset, we will explore how to automate a simple pipeline for image processing in Python using parallel techniques.
 

@@ -33,11 +33,48 @@ From the discussions in the Hackathon, we will publish a notebook which will pro
 * [extra] Creating animations based on data
 
 
+<br />
+
 ## Problem 1 - Segmenting and separating cells
 
 #### Guideline
 
-1.
+1. The data is provided here. It consists of four files. Choose one of the files and import it into your Python environment using NumPy. Use this file to figure out how to identify and index the cells, then apply your solution to the other files.
+
+2. Plot a few frames of your video. Using shape
+
+    * *Optional:* Often the file you have access to is not in a video format. Create a video of it using this script.
+
+    * *Optional:* Add comment lines to the script, explaining what each line does.
+
+3. Find the average fluorescence of the whole video as a function of time. Plot it and interpret what is happening.
+
+4. Use operations from libraries [scikit-image](http://scikit-image.org/) and [OpenCV](https://opencv-python-tutroals.readthedocs.io/en/latest/index.html) to separate each cell. There are many ways to do it, the easiest way is to identify the region around each nucleus and use it to segment the image. We share below the steps to achieve that.
+
+    * Select specific frames an try some filters on it. For instance, try using a median blur and thresholding it. Use this first step to get some feeling of how these tools affect the images.
+
+    * Use filters and thresholds to turn the regions close to each of the nuclei into "blobs" (see example below).
+
+    * Use blob detection techniques. *Hint:* Take a look at scikit-image's ```measure.label()``` function.
+
+    * Post-process your results.
+
+5. You should now have set of subregions of your image where you can find each cell. Write a small code that, given the ID of a cell, it plots the average fluorescence in the corresponding region as a function of time.
+
+6. Export your results using NumPy's ```savetxt()``` function. We recommend that you use an array of shape ```(Ncells,600)```, where Ncells represents the number of cells found by your code.
+
+7. *Optional*: On top of a plot with one of your frames, use matplotlib's ```text()``` function to show what is the id of each of your cells (see below an example).
+
+
+
+### Resources
+
+* For blob detection:
+  * [Blob detection on Learn OpenCV](https://www.learnopencv.com/blob-detection-using-opencv-python-c/), Satya Mallick's website dedicated to sharing ideas and tutorials on computer vision.
+  * Scikit-image's [page on blob detection](http://scikit-image.org/docs/dev/auto_examples/features_detection/plot_blob.html)
+  * [Here's an example](https://www.youtube.com/watch?v=4DynOyNN_FI&t=2s) of what you can accomplish with such techniques.
+
+
 
 
 ## Problem 2 - Removing photobleaching and estimating calcium concentration
