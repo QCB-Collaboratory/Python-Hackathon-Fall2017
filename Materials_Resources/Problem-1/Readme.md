@@ -33,6 +33,8 @@ From the discussions in the Hackathon, we will publish a notebook which will pro
 * [extra] Creating animations based on data
 
 
+<br />
+
 ## Problem 1 - Segmenting and separating cells
 
 #### Guideline
@@ -41,21 +43,21 @@ From the discussions in the Hackathon, we will publish a notebook which will pro
 
 2. Plot a few frames of your video. Using shape
 
-  2.1 *Optional:* Often the file you have access to is not in a video format. Create a video of it using this script.
+    * *Optional:* Often the file you have access to is not in a video format. Create a video of it using this script.
 
-  2.2 *Optional:* Add comment lines to the script, explaining what each line does.
+    * *Optional:* Add comment lines to the script, explaining what each line does.
 
 3. Find the average fluorescence of the whole video as a function of time. Plot it and interpret what is happening.
 
 4. Use operations from libraries [scikit-image](http://scikit-image.org/) and [OpenCV](https://opencv-python-tutroals.readthedocs.io/en/latest/index.html) to separate each cell. There are many ways to do it, the easiest way is to identify the region around each nucleus and use it to segment the image. We share below the steps to achieve that.
 
-  0. Select specific frames an try some filters on it. For instance, try using a median blur and thresholding it. Use this first step to get some feeling of how these tools affect the images.
+    * Select specific frames an try some filters on it. For instance, try using a median blur and thresholding it. Use this first step to get some feeling of how these tools affect the images.
 
-  2. Use filters and thresholds to turn the regions close to each of the nuclei into "blobs" (see example below).
+    * Use filters and thresholds to turn the regions close to each of the nuclei into "blobs" (see example below).
 
-  3. Use blob detection techniques. *Hint:* Take a look at scikit-image's ```measure.label()``` function.
+    * Use blob detection techniques. *Hint:* Take a look at scikit-image's ```measure.label()``` function.
 
-  4. Post-process your results.
+    * Post-process your results.
 
 5. You should now have set of subregions of your image where you can find each cell. Write a small code that, given the ID of a cell, it plots the average fluorescence in the corresponding region as a function of time.
 
