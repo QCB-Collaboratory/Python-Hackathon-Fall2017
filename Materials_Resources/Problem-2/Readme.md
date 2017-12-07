@@ -22,7 +22,7 @@ By the end of the Hackathon, you should have your own implementation of the Gill
 
 1. Start by downloading this [archive](https://github.com/thmosqueiro/UCLA-Collaboratory_Hackathon/blob/master/Materials_Resources/Problem-2/Gillespie.tar). It contains a Jupyter Notebook that will help you to be familiar with the random numbers in PYthon  and gives hints on how the Gillespie method works.  Once you have finished this Notebook, you will be ready to begin the Project.
 
-2. You can first propose think about your model on a paper sheet that model the Hok/Sok mechanism (you can begin with the case where there is the plasmid). List the number of entities you want to simulated, as well as the possible event that might affect these entities.
+2. You can first propose think about your model on a paper sheet that model the Hok/Sok mechanism (you can begin with the case where there is the plasmid). List the number of entities you want to simulated, as well as the possible events that might affect these entities.
 
 3. Using what has been done in the Notebook, implement a function that will simulate your model.
 
