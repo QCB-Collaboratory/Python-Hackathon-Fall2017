@@ -1,6 +1,8 @@
 # Analysis of calcium imaging
 
-In this problem, we will practice a number of common methodologies for the analysis of images and calcium traces based on videos. Differently to the other projects proposed in this Hackathon, this project is more educational and aims at giving hands-on practice with Python and Jupyter Notebooks. Using videos of fluorescent calcium-indicator Oregon Green in endothelial cells, we will practice:
+<img src="../qcbCollaboratory_logo.png" height="50"/>
+
+In this problem, we will practice a number of common methodologies for the analysis of calcium traces. Differently to the other projects proposed in this Hackathon, this project is more educational and aims at giving hands-on practice with Python and Jupyter Notebooks. Using videos of fluorescent calcium-indicator Oregon Green in endothelial cells, we will practice:
 
 1. a simple method to segment cells;
 2. extract fluorescence time series of a set of cells;
@@ -46,8 +48,6 @@ From the discussions in the Hackathon, we will publish a notebook which will pro
 2. Plot a few frames of your video. Using shape
     * *Optional:* Often the file you have access to is not in a video format. Create a video of it using this script.
     * *Optional:* Add comment lines to the script, explaining what each line does.
-This is how they should look like:
-<div style="text-align:center"><img src="resources/Notch1KD_JMackNatComm2017_samples.png" width="150" align="center"></div>
 
 
 3. Find the average fluorescence of the whole video as a function of time. Plot it and interpret what is happening.
