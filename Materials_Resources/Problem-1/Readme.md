@@ -96,17 +96,16 @@ The data is provided [here](./Dataset.md). It consists of two h5files that conta
 
 4. Estimate the Fmax and Fmin per sample (**or** per cell). Note that Fmax and Fmin are taken after the whole experiment, and should be corrected for photobleaching too.
 
-5. To convert from fluorescence to calcium concentration, use the formula below:
+5. To convert from fluorescence to calcium concentration, use the formula below (Kd=170nM is the [dissociation constant](https://en.wikipedia.org/wiki/Dissociation_constant) of OGB-1):
 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B300%7D%20%5Cfn_phv%20%5BCa%5E%7B2&plus;%7D%5D%20%3D%20K_d%20%5C%2C%20%5Cdfrac%7BF%20-%20F_%7Bmin%7D%7D%7BF_%7Bmax%7D%20-%20F%7D" height="40" />
 
-  Kd=170nM is the [dissociation constant](https://en.wikipedia.org/wiki/Dissociation_constant) of OGB-1.
 
 6. Plot the distribution of average calcium distribution for each slide.
 
 
 #### Resources
 
-* [Chemical calcium indicators], Methods 2008 by Paredes, Etzler, Watts, Zheng & Lechleiter
+* [Chemical calcium indicators](http://www.sciencedirect.com/science/article/pii/S104620230800159X), Methods 2008 by Paredes, Etzler, Watts, Zheng & Lechleiter
 
 * [More about the formula used in the quantification of calcium](https://www.embl.de/eamnet/html/calcium/quantifying1.htm), by EAMNET.
 
