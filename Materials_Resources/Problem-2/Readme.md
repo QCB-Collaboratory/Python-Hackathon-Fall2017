@@ -1,5 +1,7 @@
 # Simulating the Hok/Sok genetic mechanism with the Gillespie algorithm
 
+<img src="../qcbCollaboratory_logo.png" height="50"/>
+
 The Hok/Sok mechanism is an important duo of proteins that can be used as kill switch in synthetic biology. In this project, we will work on implementing the Gillespie algorithm, a Kinetic Monte Carlo method that efficiently simulates stochastic processes in continuous time.
 
 <img src="./figures/StochasticModel.png" width="600" />

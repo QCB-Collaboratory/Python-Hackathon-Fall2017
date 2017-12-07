@@ -1,5 +1,7 @@
 # Processing a batch of very large images
 
+<img src="../qcbCollaboratory_logo.png" height="50"/>
+
 One common solution to process a batch of data (e.g. images, sequencing reads, etc) is to paralelize your pipeline and make use of multiple CPUs. There usually are multiple ways to paralelize a pipeline, and some details may depend on the specifications of your project. In this practice, we will paralelize a simple pipeline that processes a single-molecule [FISH](https://en.wikipedia.org/wiki/Fluorescence_in_situ_hybridization) dataset. The main goal is to identify candidate mRNA as diffraction limited spots in images.
 
 The dataset used in this problem was kindly provided by [Rob Foreman](https://github.com/rfor10) from the [Wollman Lab](http://wollman.chem.ucla.edu/).

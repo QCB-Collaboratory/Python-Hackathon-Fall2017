@@ -35,15 +35,19 @@ From the discussions in the Hackathon, we will publish a notebook which will pro
 * [extra] Creating animations based on data
 
 
+### Dataset
+
+The data is provided [here](./Dataset.md). It consists of two h5files that contain: one with the calcium traces from four samples, and the other with measurements of Fmax-Fmin ([see paper](https://www.nature.com/articles/s41467-017-01741-8) for more details).
+
+
 <br />
 
 ## Problem 1 - Segmenting and separating cells
 
+
 #### Guideline
 
-0. The data is provided here. It consists of h5files that contain four samples. Start by downloading the file ```Notch1KD_JMackNatComm2017_samples.hdf5```.
-
-1. Import the h5 file into your Python environment (*hint:* h5py). You should have access to 4 samples, called ```sample1```, ```sample2```, ```sample3``` and ```sample4```. Each sample is a 1024x1024 video of 600 seconds. Choose one of them and use this sample to figure out how to identify and index the cells, then apply your solution to the other files.
+1. Let's start by downloading the file ```Notch1KD_JMackNatComm2017_samples.hdf5```. Import the h5 file into your Python environment (*hint:* h5py). You should have access to 4 samples, called ```sample1```, ```sample2```, ```sample3``` and ```sample4```. Each sample is a 1024x1024 video of 600 seconds. Choose one of them and use this sample to figure out how to identify and index the cells, then apply your solution to the other files.
 
 2. Plot a few frames of your video. Using shape
     * *Optional:* Often the file you have access to is not in a video format. Create a video of it using this script.
@@ -70,7 +74,7 @@ From the discussions in the Hackathon, we will publish a notebook which will pro
 
 
 
-### Resources
+#### Resources
 
 * For blob detection:
   * [Blob detection on Learn OpenCV](https://www.learnopencv.com/blob-detection-using-opencv-python-c/), Satya Mallick's website dedicated to sharing ideas and tutorials on computer vision.

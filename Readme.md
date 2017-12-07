@@ -1,6 +1,6 @@
 # Python Hackathon
 
-<img src="../qcbCollaboratory_logo.png" height="50"/>
+<img src="Materials_Resources/qcbCollaboratory_logo.png" height="50"/>
 
 Many of you who enjoyed the Collaboratory workshops have requested the opportunity to continue improving your computational skills beyond the workshop. We're pleased to announce a new event for those with interest in computational and quantitative methods in biology: **a Hackathon dedicated to solving problems of interest to our community**, using Python.
 
