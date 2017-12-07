@@ -62,6 +62,8 @@ The data is provided [here](./Dataset.md). It consists of two h5files that conta
 
     * Use filters and thresholds to turn the regions close to each of the nuclei into "blobs" (see example below).
 
+    <p align="center"><img src="resources/blobs_example.png" height="150" /></p>
+
     * Use blob detection techniques. *Hint:* Take a look at scikit-image's ```measure.label()``` function.
 
     * Post-process your results.
@@ -97,8 +99,8 @@ The data is provided [here](./Dataset.md). It consists of two h5files that conta
 4. Estimate the Fmax and Fmin per sample (**or** per cell). Note that Fmax and Fmin are taken after the whole experiment, and should be corrected for photobleaching too.
 
 5. To convert from fluorescence to calcium concentration, use the formula below (Kd=170nM is the [dissociation constant](https://en.wikipedia.org/wiki/Dissociation_constant) of OGB-1):
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B300%7D%20%5Cfn_phv%20%5BCa%5E%7B2&plus;%7D%5D%20%3D%20K_d%20%5C%2C%20%5Cdfrac%7BF%20-%20F_%7Bmin%7D%7D%7BF_%7Bmax%7D%20-%20F%7D" height="40" />
 
+<p align="center"><img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B300%7D%20%5Cfn_phv%20%5BCa%5E%7B2&plus;%7D%5D%20%3D%20K_d%20%5C%2C%20%5Cdfrac%7BF%20-%20F_%7Bmin%7D%7D%7BF_%7Bmax%7D%20-%20F%7D" height="40" /></p>
 
 6. Plot the distribution of average calcium distribution for each slide.
 
@@ -112,6 +114,8 @@ The data is provided [here](./Dataset.md). It consists of two h5files that conta
 * [How to calculate moving average](https://stackoverflow.com/questions/14313510/how-to-calculate-moving-average-using-numpy) using numpy.
 
 
+
+<br /><br />
 
 ## Extra 1 - Automate the pipeline
 
