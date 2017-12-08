@@ -55,4 +55,6 @@ If you don't have an account, create one (it takes 2 minutes).
 
 * There are many Python libraries to construct web crawlers. Start reading [mechanize](https://github.com/python-mechanize/mechanize).
 
+* Example of [filling forms with mechanize](https://stackoverflow.com/questions/3516655/python-auto-fill-with-mechanize.
+
 * [Old version](https://github.com/thmosqueiro/SignalPclient) of this project, developed back in 2014. Unfortunately, it doesn't work anymore.
