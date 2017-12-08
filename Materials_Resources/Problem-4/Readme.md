@@ -53,4 +53,6 @@ If you don't have an account, create one (it takes 2 minutes).
 
 * Read a little bit about [web crawlers](https://en.wikipedia.org/wiki/Web_crawler). They are extremely useful in many areas, including the automation of the use of online applications that do not offer APIs.
 
+* There are many Python libraries to construct web crawlers. Start reading [mechanize](https://github.com/python-mechanize/mechanize).
+
 * [Old version](https://github.com/thmosqueiro/SignalPclient) of this project, developed back in 2014. Unfortunately, it doesn't work anymore.
