@@ -5,7 +5,6 @@
 Many of you who enjoyed the Collaboratory workshops have requested the opportunity to continue improving your computational skills beyond the workshop. We're pleased to announce a new event for those with interest in computational and quantitative methods in biology: **a Hackathon dedicated to solving problems of interest to our community**, using Python.
 
 #### Table of contents
-
 - [Where? When?](#when-where)
 - [Registration and contact](#registration-and-contact)
 - [Schedule](#schedule)
@@ -19,14 +18,15 @@ Our idea is to organize a Hackathon over a single day (December 8th, 2017), and 
 To ensure that these problems are of relevance to a large number of people, we are asking for everyone interested to submit suggestions of problems that you, or colleagues, may want help tackling. This is a great opportunity to get help with a problem you're stuck on as we learn together how to overcome coding challenges. With a set of relevant problems, we can offer tailored assistance in advanced topics with Python, creating a stronger connection between the contents of our workshop and your research and going beyond the basic material provided by the current Collaboratory workshop. **The hackathon is suitable for anyone who regularly uses or wishes to regularly use Python for their research, regardless of their level of expertise with programming languages.** The only requirement is the [Introduction to Python workshop](https://qcb.ucla.edu/collaboratory/workshops/collaboratory-workshop-9/).
 
 
-**Want to make comments that are visible to everyone in the Hackathon?** We can use our [Issues page](https://github.com/thmosqueiro/UCLA-Collaboratory_Hackathon/issues) to share general comments and questions relevant to everyone. You'll need an account (takes 2 minutes to create one!), but no knowledge of git is required.
+* This Hackathon will be hosted by the [QCBio Collaboratory](https://qcb.ucla.edu/collaboratory/).
 
+* [Official home page of the Hackathon.](https://qcb.ucla.edu/collaboratory/hackathon)
 
-[Official home page of the Hackathon.](https://qcb.ucla.edu/collaboratory/hackathon)
+* [Slides](./Materials_Resources/slides/PythonHackathon_Dec2017_TheCollaboratory_UCLA.pdf) presented at the beggining of the Hackathon.
 
-This Hackathon will be hosted by the [QCBio Collaboratory](https://qcb.ucla.edu/collaboratory/).
+* For more information or to contact us, please send us an e-mail: thmosqueiro@ucla.edu
 
-For more information or to contact us, please send us an e-mail: thmosqueiro@ucla.edu
+* **Want to make comments that are visible to everyone in the Hackathon?** We can use our [Issues page](https://github.com/thmosqueiro/UCLA-Collaboratory_Hackathon/issues) to share general comments and questions relevant to everyone. You'll need an account (takes 2 minutes to create one!), but no knowledge of git is required.
 
 <img src="./Materials_Resources/Hackathon-Flyer.png" width="600px" />
 
