@@ -24,13 +24,13 @@ By the end of the Hackathon, you should have your own implementation of the Gill
 
 ### Guideline
 
-1. Start by going through [this Jupyter Notebook](./GillespieProject.ipynb) ([click here to download it](./Gillespie.tar)). This notebook will help you familiarize with random numbers in Python. It also provides hints on how the Gillespie method works.  Once you have finished going through this notebook, you will be ready to begin this project.
+1. Start by going through [this Jupyter Notebook](./GillespieProject.ipynb) ([click here to download it](./Gillespie.zip)). This notebook will help you familiarize with random numbers in Python. It also provides hints on how the Gillespie method works.  Once you have finished going through this notebook, you will be ready to begin this project.
 
 2. You can first propose a model on a paper sheet that describes the Hok/Sok system (you can begin with the case where there is the plasmid). List the number of entities you want to simulate, as well as the possible events that might affect these entities.
 
 3. Using what has been done in the Notebook, implement a function that will simulate your model.
 
-4. Try to fit your parameters with the information provided in the (ressources below](./Readme.md#resources).
+4. Try to fit your parameters with the information provided in the [ressources below](./Readme.md#resources).
 
 5. Let's consider that the plasmid disappear. Can you imagine a simulation that will represent this event?
 
