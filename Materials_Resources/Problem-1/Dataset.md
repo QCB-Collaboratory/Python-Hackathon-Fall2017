@@ -45,3 +45,12 @@ Similarly to the previous file, this h5 file contains 4 datasets:
 ```
 
 Each slide contains a NumPy array of shape (600,1024,1024).
+
+
+
+<br />
+### Example of masks for Track 2
+
+* [Notch1KD_JMackNatComm2017_fmaxfmin.zip (100KB)](https://drive.google.com/open?id=1mlMk2SelT_62Rm0TA_FEqm_mDKhHRAHB)
+
+In case you decide to go directly to Track 2, this file contains one possible mask obtained from Track 1.

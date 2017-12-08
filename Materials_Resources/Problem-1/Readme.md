@@ -92,7 +92,7 @@ The data is provided [here](./Dataset.md). It consists of two h5files that conta
 
 1. In point 3 of Track 1 we visualized the average fluorescence as a function of time. The drop in the basal line is called [photo bleaching](https://en.wikipedia.org/wiki/Photobleaching). Find a way to fix it and plot the new average fluorescence.
 
-2. Use the mask obtained in point 5 from Track 1 to examine the fluorescence of each cell. Is there still residual photobleaching? If yes, correct it per cell.
+2. Use the mask obtained in point 5 from Track 1 to examine the fluorescence of each cell. If you decided to go directly to Track 2, you can download a sample of mask [here](./Dataset.md). Is there still residual photobleaching? If yes, correct it per cell.
 
 3. Let's start by downloading the file ```Notch1KD_JMackNatComm2017_fmaxfmin.hdf5```. Import the h5 file into your Python environment. This gives you the measures of Fmax and Fmin for each sample.
 
