@@ -8,6 +8,8 @@ http://www.cbs.dtu.dk/services/SignalP/
 
 In this project, we will develop a script to automate the detection of signal peptides and organize the output from SignalP in a fasta file. ServerP 4.1 Server was originally proposed on [a Nature Methods paper](https://www.nature.com/articles/nmeth.1701) by TN Petersen, S Brunak, G von Heijne and H Nielsen.
 
+<img src="./resources/scheme_signalPclient.png" width="600" />
+
 This problem was originally proposed by [Dr. João VD Molino](https://www.researchgate.net/profile/Joao_Molino) in 2014. He also helped us selecting the dataset!
 
 ### Primary goal
