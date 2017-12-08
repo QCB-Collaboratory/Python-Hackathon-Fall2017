@@ -57,4 +57,6 @@ If you don't have an account, create one (it takes 2 minutes).
 
 * Example of [filling forms with mechanize](https://stackoverflow.com/questions/3516655/python-auto-fill-with-mechanize.
 
+https://stackoverflow.com/questions/38718891/python3-nothing-happens-when-submitting-a-form-via-mechanicalsoup
+
 * [Old version](https://github.com/thmosqueiro/SignalPclient) of this project, developed back in 2014. Unfortunately, it doesn't work anymore.
