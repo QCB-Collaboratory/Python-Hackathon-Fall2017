@@ -2,7 +2,7 @@
 
 <img src="../qcbCollaboratory_logo.png" height="50"/>
 
-The Hok/Sok mechanism is an important duo of proteins that can be used as kill switch in synthetic biology. In this project, we will work on implementing the Gillespie algorithm, a Kinetic Monte Carlo method that efficiently simulates stochastic processes in continuous time.
+The Hok/Sok system is an important duo of proteins that can be used as kill switch in synthetic biology. In this project, we will create a model that predicts expression levels of Hok/Sok and implement the Gillespie algorithm, a Kinetic Monte Carlo method that efficiently simulates stochastic processes in continuous time.
 
 <img src="./figures/StochasticModel.png" width="600" />
 
@@ -16,28 +16,28 @@ By the end of the Hackathon, you should have your own implementation of the Gill
 ### Technical challenges
 
 * Create a model that represents a real biological system.
+
 * Learn how to implement the Gillespie algorithm
-* Determine parameters for the simulation
+
+* Determine the parameters for the simulation
 
 
 ### Guideline
 
-1. Start by downloading this [archive](https://github.com/thmosqueiro/UCLA-Collaboratory_Hackathon/blob/master/Materials_Resources/Problem-2/Gillespie.tar). It contains a Jupyter Notebook that will help you to be familiar with the random numbers in PYthon  and gives hints on how the Gillespie method works.  Once you have finished this Notebook, you will be ready to begin the Project.
+1. Start by going through [this Jupyter Notebook](./GillespieProject.ipynb) ([click here to download it](./Gillespie.tar)). This notebook will help you familiarize with random numbers in Python. It also provides hints on how the Gillespie method works.  Once you have finished going through this notebook, you will be ready to begin this project.
 
-2. You can first propose think about your model on a paper sheet that model the Hok/Sok mechanism (you can begin with the case where there is the plasmid). List the number of entities you want to simulated, as well as the possible events that might affect these entities.
+2. You can first propose a model on a paper sheet that describes the Hok/Sok system (you can begin with the case where there is the plasmid). List the number of entities you want to simulate, as well as the possible events that might affect these entities.
 
 3. Using what has been done in the Notebook, implement a function that will simulate your model.
 
-4. Try to fix your different parameters with the information given in the ressources.
+4. Try to fit your parameters with the information provided in the (ressources below](./Readme.md#resources).
 
-5. Let's consdier that the plasmid disapear, can you imagine a simulation that will represent this event.
+5. Let's consider that the plasmid disappear. Can you imagine a simulation that will represent this event?
 
 
 ### Resources
 
 * A good start is the [Wikipedia page on the Gillespie Algorithm](https://en.wikipedia.org/wiki/Gillespie_algorithm).
-
-* You can also download the Notebook. To do so, simply download le zip file (that contains the notebook as well as several figures).
 
 * Thisted, Thomas, and Kenn Gerdes. "Mechanism of post-segregational killing by the hok/sok system of plasmid R1: Sok antisense RNA regulates hok gene expression indirectly through the overlapping mok gene." Journal of molecular biology 223.1 (1992): 41-54.
 
