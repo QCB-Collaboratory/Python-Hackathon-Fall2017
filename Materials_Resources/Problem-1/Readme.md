@@ -50,7 +50,7 @@ The data is provided [here](./Dataset.md). It consists of two h5files that conta
 1. Let's start by downloading the file ```Notch1KD_JMackNatComm2017_samples.hdf5```. Import the h5 file into your Python environment (*hint:* h5py). You should have access to 4 samples, called ```sample1```, ```sample2```, ```sample3``` and ```sample4```. Each sample is a 1024x1024 video of 600 seconds. Choose one of them and use this sample to figure out how to identify and index the cells, then apply your solution to the other files.
 
 2. Plot a few frames of your video. Using shape
-    * *Optional:* Often the file you have access to is not in a video format. Create a video of it using this script.
+    * *Optional:* Often the file you have access to is not in a video format. Create a video of it using [this script](./resources/make_video_raw.py).
     * *Optional:* Add comment lines to the script, explaining what each line does.
 
 
