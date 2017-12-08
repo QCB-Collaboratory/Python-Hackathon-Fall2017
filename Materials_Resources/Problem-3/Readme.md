@@ -9,6 +9,8 @@ The dataset used in this problem was kindly provided by [Rob Foreman](https://gi
 
 ### Primary goal
 
+Implement a script that automates the processing of a large batch of images using all resources available. The emphasis of this project is on best practices for parallel processing and mamory management in python.
+
 
 ### Technical challenges
 
@@ -17,6 +19,11 @@ The dataset used in this problem was kindly provided by [Rob Foreman](https://gi
 * Automating the analysis of batches of large images
 
 * Good practices for a memory efficient implementation of parallel processing in Python
+
+
+### Dataset
+
+You can find the dataset for this problem [here](./Dataset.md).
 
 
 ### Guideline
